@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#40E0D0</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!-- Individual Colors -->
+    <color name="Blue">#0A0C7D</color>
+    <color name="Blue_Light">#132E86</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Silver">#B4B0B0</color>
+    <color name="Black">#000000</color>
+    <color name="Green">#227D44</color>
+    <color name="Light_Green">#0AB90A</color>
+    <color name="Dark_Green">#2b4f11</color>
+    <color name="Indigo">#6032B0</color>
+    <color name="Red">#990808</color>
+    <color name="Yellow">#FAEE1A</color>
+    <color name="Brown">#C17414</color>
+    <color name="DarkBrown">#894E06</color>
+    <color name="LightBackground">#EFE4D6</color>
+    <color name="Turquoise">#1B536D</color>
+    <color name="Turquoise_Green">#396F3B</color>
+    <color name="Turquoise_variation">#40E0D0</color>
+    <color name="Burgundy">#8C001A</color>
+    <color name="Dark_Orange">#FA9507</color>
+    <color name="Blur">#B4C292</color>
+
+    <!-- Generic colors -->
+    <!-- Set 1 -->
+    <!--<color name="Header">#F75C03</color>
+    <color name="SecondHeader">#ff7b00</color>
+    <color name="ButtonColor">#F75C03</color>
+    <color name="TextOnButtonColor">#FFFFFF</color>
+    <color name="TextColor">#000000</color>
+    <color name="LinkColor">#227D44</color>
+    <color name="BackgroundColor">#FFFFFF</color>
+    <color name="ThinLineSeparator">#227D44</color>
+    <color name="TextHintColor">#B4C292</color>-->
+
+    <!-- Set 2 -->
+    <!--<color name="Header">#00BCD4</color>
+    <color name="SecondHeader">#0097A7</color>
+    <color name="ButtonColor">#006064</color>
+    <color name="TextOnButtonColor">#E0F7FA</color>
+    <color name="TextColor">#000000</color>
+    <color name="LinkColor">#009688</color>
+    <color name="BackgroundColor">#E0F7FA</color>
+    <color name="ThinLineSeparator">#009688</color>
+    <color name="TextHintColor">#B4C292</color>-->
+
+
+    <!-- Set 3 -->
+    <!--<color name="Header">#441151</color>
+    <color name="SecondHeader">#883677</color>
+    <color name="ButtonColor">#ee85b5</color>
+    <color name="TextOnButtonColor">#22031F</color>
+    <color name="TextColor">#22031F</color>
+    <color name="LinkColor">#009688</color>
+    <color name="BackgroundColor">#ca61c3</color>
+    <color name="ThinLineSeparator">#009688</color>
+    <color name="TextHintColor">#B4C292</color>-->
+
+
+    <!-- Set 4
+    <color name="Header">#43B738</color>
+    <color name="SecondHeader">#A1E44D</color>
+    <color name="ButtonColor">#43B738</color>
+    <color name="TextOnButtonColor">#FFFFFF</color>
+    <color name="TextColor">#22031F</color>
+    <color name="LinkColor">#009688</color>
+    <color name="BackgroundColor">#FFFFFF</color>
+    <color name="ThinLineSeparator">#764D7E</color>
+    <color name="TextHintColor">#B4C292</color>-->
+
+
+    <!-- Set 5 -->
+    <!--<color name="Header">#441151</color>
+    <color name="SecondHeader">#883677</color>
+    <color name="ButtonColor">#ee85b5</color>
+    <color name="TextOnButtonColor">#22031F</color>
+    <color name="TextColor">#22031F</color>
+    <color name="LinkColor">#009688</color>
+    <color name="BackgroundColor">#ca61c3</color>
+    <color name="ThinLineSeparator">#009688</color>
+    <color name="TextHintColor">#B4C292</color>-->
+
+    <!-- Set 6 -->
+    <color name="Header">#009688</color>
+    <color name="SecondHeader">#40E0D0</color>
+    <color name="ButtonColor">#009688</color>
+    <color name="TextOnButtonColor">#FFFFFF</color>
+    <color name="TextColor">#22031F</color>
+    <color name="LinkColor">#396F3B</color>
+    <color name="BackgroundColor">#FFFFFF</color>
+    <color name="ThinLineSeparator">#396F3B</color>
+    <color name="TextHintColor">#B4C292</color>
+
+    <!-- List View colors -->
+    <!--<color name="pressed_color">#B4C292</color>
+    <color name="default_color">#FFFFFF</color>-->
+    <drawable name="pressed_color">#B4C292</drawable>
+    <drawable name="default_color">#FFFFFF</drawable>
+
+</resources>

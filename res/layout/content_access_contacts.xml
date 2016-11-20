@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin_half"
+    android:paddingLeft="@dimen/activity_horizontal_margin_half"
+    android:paddingRight="@dimen/activity_horizontal_margin_half"
+    android:paddingTop="@dimen/activity_vertical_margin_half"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.module1.triplak.moduleone.activity.AccessContacts"
+    tools:showIn="@layout/activity_access_contacts">
+
+    <ListView
+        android:id="@+id/contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/list_view_selected_background"
+        android:choiceMode="multipleChoice"></ListView>
+
+</RelativeLayout>

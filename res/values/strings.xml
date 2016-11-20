@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Triplac</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Start Activity  -->
+    <string name="defaultPhoneCode">+91</string>
+    <string name="enter_phone_number_hint">Enter phone number</string>
+    <string name="passwordVisibleDescription">Show/Hide Password</string>
+    <string name="passwordDescription">Enter password</string>
+    <string name="SignInButton">Sign In</string>
+    <string name="EnterPhoneNumber">Please enter your phone number</string>
+    <string name="privacy_Policy"><a href="http://www.google.com"></a>By continuing, you accept the <u>Privacy Policy</u></string>
+    <string name="tvAuthentication"><u>I have an authentication code</u></string>
+    <string name="ForgotPassword">Forgot Password</string>
+
+    <!-- Country Code -->
+    <string name="countryName">Country Name</string>
+    <string name="phoneNumber">Phone no.</string>
+
+    <!-- Verify Login OTP-->
+    <string name="LoginOTPVerify">Please enter the OTP in case we are unable to detect automatically.</string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="otp_submit">Verify OTP</string>
+
+    <!-- Home Page Activity -->
+    <string name="ImageOneDescription">Self User</string>
+    <string name="ImageTwoDescription">User One</string>
+    <string name="ImageThreeDescription">User Two</string>
+    <string name="ExpiryInfo">Expires on 2016-09-25 00:00:00</string>
+    <string name="Rupee">\u20B9</string>
+    <string name="home_tab_layout">Home</string>
+    <string name="contacts_tab_layout">Contacts</string>
+    <string name="portal_tab_layout">Portal</string>
+
+    <!-- Menu Access XML -->
+    <string name="action_email_settings">Email</string>
+    <string name="action_password_settings">Password</string>
+    <string name="action_phone_settings">Phone Number</string>
+    <string name="action_account_settings">Account</string>
+    <string name="action_search">Search</string>
+
+    <!-- Menu Start XML -->
+    <string name="action_addContact">Add Contact</string>
+
+    <!-- Fragment Two -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_searchContacts">Search Contacts</string>
+    <string name="username">Username</string>
+
+    <!-- Fragment Three -->
+    <string name="hello_blank_fragment">To be done ...</string>
+
+    <!-- Forgot Password -->
+    <string name="forgotPasswordEmail">Registered email</string>
+    <string name="forgotPasswordPhone">Registered mobile number</string>
+    <string name="ForgotPasswordInfo">Send a link to reset password to my</string>
+
+    <!-- Initiate Code Verification -->
+    <string name="activation_code">Enter Activation Code</string>
+    <string name="ActivationCodeInfo">You cannot proceed without an activation code. You should receive one when your friend had sent you a link. Code is case-sensitive.</string>
+    <string name="btn_CodeCheck">Confirm</string>
+    <string name="action_faqAndHelp">FAQ and Help</string>
+
+    <!--Register User -->
+    <string name="RegistrationDetails">We need a few details before we make your account ready for you.</string>
+    <string name="msg_sit_back">Sit back &amp; relax while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">Verify OTP</string>
+    <string name="email">Email</string>
+
+    <!-- Payment Gateway -->
+    <string name="tvPaymentInfo">Select an option to pay</string>
+    <string name="Pay">To be done. Click to go next</string>
+
+    <!-- Send Request -->
+    <string name="request_info">Hey there! I would like you to be my Triplak buddy. Please register Triplak
+    from "URL". Your authorization code will be </string>
+    <string name="requestWarning">**Please do not change the authorization code.</string>
+    <string name="backButton">Back</string>
+
+    <!--Profile -->
+    <string name="currentMoney">17,892.98</string>
+
+
+    <!-- General -->
+    <string name="copyright">&#169; Triplak Inc.</string>
+    <string name="Send">Send</string>
+    <string name="mobileNo">Mobile Number</string>
+    <string name="Register">Register</string>
+
+
+    <!-- Buffer -->
+    <string name="action_preferences">Preferences</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help and FAQ</string>
+
+    <string name="title_activity_verify_login">Login</string>
+    <string name="title_activity_verify_login_otp">Verify OTP</string>
+    <string name="title_activity_initiate_code_verification">Verification</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_country_code">Select your country</string>
+    <string name="title_activity_home_page">Home Page</string>
+    <string name="title_activity_faq_and_help">FAQ</string>
+    <string name="title_activity_register_user">Register User</string>
+    <string name="title_activity_payment_gateway">Payment Gateway</string>
+    <string name="title_activity_access_contacts">Pick two contacts</string>
+    <string name="title_activity_send_request">Send Request</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_profile_viewer">Profile</string>
+
+</resources>

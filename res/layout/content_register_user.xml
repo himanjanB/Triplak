@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.module1.triplak.moduleone.activity.RegisterUser"
+    tools:showIn="@layout/activity_register_user">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerVertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/layout_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/RegistrationDetails"
+                android:textColor="@color/TextColor"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/text_input_rectangle"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:padding="13dp"
+                    android:textColor="@color/TextColor"
+                    android:textColorHint="@color/TextHintColor"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/phoneRegisterLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/text_input_rectangle"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvPhoneCode"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/button_embedded"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="+91"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/TextColor" />
+
+                    <View
+                        android:id="@+id/line"
+                        android:layout_width="0.5dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/Silver" />
+
+                    <EditText
+                        android:id="@+id/etMobile"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/embedded"
+                        android:fontFamily="sans-serif-light"
+                        android:hint="@string/mobileNo"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingStart="8dp"
+                        android:textColor="@color/TextColor"
+                        android:textColorHint="@color/TextHintColor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/buttonborder"
+                    android:text="@string/Register"
+                    android:textAllCaps="false"
+                    android:textColor="@color/TextOnButtonColor"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_otp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/msg_sit_back"
+                android:textColor="@color/TextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/msg_manual_otp"
+                android:textColor="@color/TextColor"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/inputOtp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:hint="@string/lbl_enter_otp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="10dp"
+                android:textColor="@color/TextColor"
+                android:textColorHint="@color/TextHintColor"
+                android:textCursorDrawable="@null"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_verify_otp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonborder"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/lbl_submit"
+                android:textAllCaps="false"
+                android:textColor="@color/TextOnButtonColor"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
